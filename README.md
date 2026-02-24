@@ -85,17 +85,7 @@ http://localhost:3000
 
 The application will automatically reload when you make changes.
 
-🧭 Project Structure
 
-Key directories you may want to edit:
-
-src/
-├── components/ # All UI components
-├── Assets/ # Images, icons, PDFs
-├── style.css # Global styling
-└── App.js # Main application logic
-
-Each section of the portfolio is modular and easy to update.
 
 ✏️ Customization Guide
 
