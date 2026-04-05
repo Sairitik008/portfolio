@@ -8,10 +8,8 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-  AiFillGithub,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);

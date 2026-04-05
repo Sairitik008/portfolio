@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
@@ -13,11 +13,6 @@ const DRIVE_DOWNLOAD_URL =
   "https://drive.google.com/uc?export=download&id=1zXVTQ9gFQGITzTngXDSk9ibghEoV8Y_E";
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
-
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
 
   return (
     <div>
