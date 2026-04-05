@@ -13,7 +13,7 @@ import fitness from "../../Assets/Projects/leaf.png";
 import ai from "../../Assets/Projects/emotion.png";
 import solar from "../../Assets/Projects/suicide.png";
 import sauji from "../../Assets/Projects/sauji.png";
-import mehendi from "../../Assets/Projects/banner.png";
+
 import retailer from "../../Assets/Projects/marketplace.png";
 
 function Projects() {

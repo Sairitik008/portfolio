@@ -6,8 +6,6 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { HiDownload } from "react-icons/hi";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
