@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+// import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/profile-pic.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -15,40 +16,36 @@ function Home2() {
             </h1>
 
             <p className="home-about-body">
-              I’m a <b className="purple">Java Backend & Integration Developer</b>{" "}
-              with hands-on experience in building and integrating scalable
-              systems across web and service-based platforms.
+              I'm a{" "}
+              <b className="purple">Backend-Focused Full-Stack Developer</b>{" "}
+              with <b className="purple">1.5 years of production experience</b> building
+              scalable REST APIs, microservices, and mobile applications across diverse industry verticals.
               <br />
               <br />
-              I primarily work with
+              My core stack includes
               <i>
                 <b className="purple">
                   {" "}
-                  Java, Spring Boot, REST APIs, Node.js, and MongoDB/MySQL{" "}
+                  Node.js, Express.js, React.js, React Native, MongoDB, and MySQL{" "}
                 </b>
               </i>
-              , focusing on clean architecture, performance, and reliable data
-              flow.
+              — focused on clean architecture, reliable API contracts, and real-world deployment.
               <br />
               <br />
-              I have practical experience integrating
+              I have shipped production systems across
               <i>
                 <b className="purple">
                   {" "}
-                  third-party APIs, payment gateways, and service-based
-                  components
+                  EdTech, FinTech, GovTech, and consumer apps
                 </b>
               </i>
-              , and I enjoy understanding how different systems communicate and
-              scale together.
+              , integrating payment gateways, third-party APIs, and cloud services like{" "}
+              <b className="purple">AWS EC2 & S3</b>.
               <br />
               <br />
-              Along with backend development, I also build user interfaces using
-              modern frontend tools like
-              <i>
-                <b className="purple"> React.js </b>
-              </i>
-              , enabling me to contribute across the full stack when required.
+              Beyond corporate roles, I am an active{" "}
+              <b className="purple">Freelance Developer</b> solving B2B challenges and a dedicated{" "}
+              <b className="purple">Technical Mentor</b> on Topmate, helping 100+ students and professionals master modern tech stacks.
             </p>
           </Col>
 

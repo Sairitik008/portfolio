@@ -2,10 +2,7 @@ import React, { useState, useEffect } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-
-import logo from "../Assets/logo.png";
 
 import {
   AiOutlineHome,
@@ -14,6 +11,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -23,7 +21,6 @@ function NavBar() {
     function scrollHandler() {
       updateNavbar(window.scrollY >= 20);
     }
-
     window.addEventListener("scroll", scrollHandler);
     return () => window.removeEventListener("scroll", scrollHandler);
   }, []);
@@ -36,8 +33,11 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand as={Link} to="/" className="d-flex">
-          <img src={logo} height="80px" width="80px" className="img-fluid logo" alt="Sairitik Naidu logo" />
+        {/* Brand — Name + Title */}
+        <Navbar.Brand as={Link} to="/" className="nav-brand-name">
+          <span className="brand-first">S</span>airitik
+          <span className="brand-dot"> · </span>
+          <span className="brand-role">Dev</span>
         </Navbar.Brand>
 
         <Navbar.Toggle
@@ -50,7 +50,7 @@ function NavBar() {
         </Navbar.Toggle>
 
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto">
+          <Nav className="ms-auto align-items-center">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome /> Home
@@ -58,45 +58,56 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
                 <AiOutlineUser /> About
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link as={Link} to="/project" onClick={() => updateExpanded(false)}>
                 <AiOutlineFundProjectionScreen /> Projects
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
+              <Nav.Link as={Link} to="/resume" onClick={() => updateExpanded(false)}>
                 <CgFileDocument /> Resume
               </Nav.Link>
             </Nav.Item>
 
-            {/* GitHub Button */}
-            <Nav.Item className="fork-btn">
-              <Button
+            {/* Social icons in navbar */}
+            {/* <Nav.Item className="nav-social-item">
+              <a
                 href="https://github.com/Sairitik008"
                 target="_blank"
-                className="fork-btn-inner"
-                aria-label="GitHub Profile"
+                rel="noreferrer"
+                className="nav-social-icon"
+                aria-label="GitHub"
               >
-                <AiFillGithub style={{ fontSize: "1.2em" }} />
-              </Button>
+                <AiFillGithub />
+              </a>
+            </Nav.Item>
+
+            <Nav.Item className="nav-social-item">
+              <a
+                href="https://www.linkedin.com/in/sairitiknaidu/"
+                target="_blank"
+                rel="noreferrer"
+                className="nav-social-icon"
+                aria-label="LinkedIn"
+              >
+                <FaLinkedinIn />
+              </a>
+            </Nav.Item> */}
+
+            {/* Hire Me Button */}
+            <Nav.Item className="ms-2">
+              <a
+                href="mailto:sairitiknaidu7@gmail.com"
+                className="hire-me-btn"
+              >
+                Hire Me
+              </a>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
