@@ -4,14 +4,14 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 
+
+
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
-  AiFillGithub,
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -33,11 +33,11 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        {/* Brand — Name + Title */}
-        <Navbar.Brand as={Link} to="/" className="nav-brand-name">
-          <span className="brand-first">S</span>airitik
-          <span className="brand-dot"> · </span>
-          <span className="brand-role">Dev</span>
+        {/* Brand — Premium Text Logo */}
+        <Navbar.Brand as={Link} to="/" className="d-flex align-items-center" style={{ textDecoration: "none" }}>
+          <span style={{ color: "#818cf8", fontWeight: "800", fontSize: "1.3em", border: "2px solid #818cf8", padding: "2px 8px", borderRadius: "6px", marginRight: "10px", boxShadow: "0 0 10px rgba(129, 140, 248, 0.4)" }}>SN</span>
+          <span style={{ color: "#f8fafc", fontWeight: "700", fontSize: "1.4em", letterSpacing: "1px" }}>Sairitik</span>
+          <span style={{ color: "#94a3b8", fontWeight: "400", fontSize: "1.4em", marginLeft: "6px" }}>Naidu</span>
         </Navbar.Brand>
 
         <Navbar.Toggle
@@ -105,6 +105,7 @@ function NavBar() {
               <a
                 href="mailto:sairitiknaidu7@gmail.com"
                 className="hire-me-btn"
+                style={{ whiteSpace: "nowrap" }}
               >
                 Hire Me
               </a>

@@ -25,13 +25,13 @@ function AboutCard() {
               Master of Computer Applications (MCA)
             </span>{" "}
             from RTM Nagpur University (CGPA: 8.7/10) with{" "}
-            <span className="purple">1.5 years of industry experience</span>. 
-            Throughout my career, I've balanced corporate excellence with a passion for{" "}
+            <span className="purple">1.5 years of professional experience</span>.
+            Throughout my career, I've always balanced my day job with a passion for{" "}
             <span className="purple">
-              Independent Freelance Development
+              freelance development
             </span>{" "}
             and serving as a{" "}
-            <span className="purple">1:1 Technical Mentor</span> for the developer community.
+            <span className="purple">technical mentor</span> to help others break into tech.
             <br />
             <br />
             Outside of coding, I enjoy:

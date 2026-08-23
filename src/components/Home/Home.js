@@ -6,8 +6,6 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import { HiDownload } from "react-icons/hi";
-import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -35,7 +33,7 @@ function Home() {
 
               <p className="hero-tagline">
                 Building scalable backends, seamless APIs &amp; full-stack
-                experiences — from Nagpur to the cloud ☁️
+                experiences — from Nagpur to the cloud.
               </p>
 
 
@@ -67,8 +65,7 @@ function Home() {
           <Col md={12} className="home-about-social text-center">
             <h1>Let's <span className="purple">Connect</span></h1>
             <p>
-              Open to opportunities in{" "}
-              <span className="purple">Full-Stack &amp; Backend Development</span>
+              Open to opportunities in <span className="purple">Full-Stack &amp; Backend Development</span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

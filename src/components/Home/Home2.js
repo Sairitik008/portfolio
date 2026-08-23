@@ -17,9 +17,9 @@ function Home2() {
 
             <p className="home-about-body">
               I'm a{" "}
-              <b className="purple">Backend-Focused Full-Stack Developer</b>{" "}
-              with <b className="purple">1.5 years of production experience</b> building
-              scalable REST APIs, microservices, and mobile applications across diverse industry verticals.
+              <b className="purple">Full-Stack Developer</b>{" "}
+              with a focus on backend architecture. Over the past 1.5 years, I've built
+              REST APIs, microservices, and mobile applications that are currently running in production.
               <br />
               <br />
               My core stack includes
@@ -32,15 +32,15 @@ function Home2() {
               — focused on clean architecture, reliable API contracts, and real-world deployment.
               <br />
               <br />
-              I have shipped production systems across
+              I've shipped systems for
               <i>
                 <b className="purple">
                   {" "}
-                  EdTech, FinTech, GovTech, and consumer apps
+                  EdTech, FinTech, GovTech, and retail apps
                 </b>
               </i>
-              , integrating payment gateways, third-party APIs, and cloud services like{" "}
-              <b className="purple">AWS EC2 & S3</b>.
+              , handling everything from payment gateway integrations to setting up cloud infrastructure on{" "}
+              <b className="purple">AWS (EC2 & S3)</b>.
               <br />
               <br />
               Beyond corporate roles, I am an active{" "}

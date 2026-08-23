@@ -6,15 +6,16 @@ import Button from "react-bootstrap/Button";
 import { HiOutlineLightBulb } from "react-icons/hi";
 
 /* Improved, meaningful image naming */
-import ecommerce from "../../Assets/Projects/chatify.png";
-import twitter from "../../Assets/Projects/blog.png";
-import lms from "../../Assets/Projects/codeEditor.png";
-import fitness from "../../Assets/Projects/leaf.png";
-import ai from "../../Assets/Projects/emotion.png";
-import solar from "../../Assets/Projects/suicide.png";
+import ecommerce from "../../Assets/Projects/ecommerce_mockup.png";
+import twitter from "../../Assets/Projects/twitter_clone_mockup.png";
+import lms from "../../Assets/Projects/lms_mockup.png";
+import fitness from "../../Assets/Projects/fitness_mockup.png";
+import ai from "../../Assets/Projects/ai_landing_mockup.png";
+import solar from "../../Assets/Projects/solar_panel_mockup.png";
 import sauji from "../../Assets/Projects/sauji.png";
-import mehendi from "../../Assets/Projects/banner.png";
-import retailer from "../../Assets/Projects/marketplace.png";
+import retailer from "../../Assets/Projects/retailer_mockup.png";
+import saloon from "../../Assets/Projects/saloon_mockup.png";
+import deloitte from "../../Assets/Projects/deloitte_dashboard_mockup.png";
 
 function Projects() {
   return (
@@ -26,7 +27,7 @@ function Projects() {
           My <strong className="purple">Projects</strong>
         </h1>
         <p className="text-center text-light mb-5">
-          Selected real-world projects highlighting my expertise in full-stack and backend development.
+          Here are a few applications and tools I've built recently.
         </p>
 
         <Row className="g-4 justify-content-center">
@@ -36,7 +37,7 @@ function Projects() {
               imgPath={ecommerce}
               isBlog={false}
               title="E-Commerce Platform"
-              description="A full-stack e-commerce application featuring product listings, cart management, secure authentication, and order processing. Built with a scalable backend and a responsive frontend for real-world business use."
+              description="A custom e-commerce storefront I built from scratch to handle product catalogs, shopping carts, and secure checkout. I focused on ensuring the backend API and database could handle concurrent traffic smoothly."
               ghLink="https://github.com/Sairitik008/E-commerce-Web-App"
             />
           </Col>
@@ -47,7 +48,7 @@ function Projects() {
               imgPath={twitter}
               isBlog={false}
               title="Twitter Clone (Django)"
-              description="A social media platform inspired by Twitter, developed using Django. Includes user authentication, tweet creation, likes, follows, and a timeline feed with server-side rendering and REST APIs."
+              description="A social media feed application I developed in Django. It replicates core Twitter features like user authentication, creating posts, and following other users, all connected to a RESTful backend."
               ghLink="https://github.com/Sairitik008/resolveiq"
             />
           </Col>
@@ -57,8 +58,8 @@ function Projects() {
             <ProjectCard
               imgPath={lms}
               isBlog={false}
-              title="Learning Management System (Spring Boot)"
-              description="A backend-driven LMS built with Java Spring Boot. Supports user roles, course management, enrollments, and RESTful APIs with secure authentication and database integration."
+              title="Learning Management System"
+              description="A backend-focused learning management platform created with Java and Spring Boot. It manages student enrollments, course data, and secure role-based access for instructors."
               ghLink="https://github.com/Sairitik008/LMS-cloud-sai"
             />
           </Col>
@@ -68,8 +69,8 @@ function Projects() {
             <ProjectCard
               imgPath={fitness}
               isBlog={false}
-              title="Turo Fitness – Landing Page"
-              description="A modern and responsive fitness website landing page built using React. Focused on clean UI, performance optimization, and conversion-driven design."
+              title="Turo Fitness"
+              description="A responsive landing page I designed for a local fitness brand. I used React to create a fast, engaging UI that looks great on mobile phones as well as large desktop monitors."
               ghLink="https://github.com/Sairitik008/Turo-fitness-website"
             />
           </Col>
@@ -79,8 +80,8 @@ function Projects() {
             <ProjectCard
               imgPath={ai}
               isBlog={false}
-              title="AI Product Landing Website"
-              description="A professional landing website for an AI-based product. Designed to showcase features, use cases, and value proposition with a clean frontend architecture."
+              title="AI Landing Page"
+              description="A concept landing page for a futuristic AI tool. I experimented with modern web design trends like dark mode and subtle visual animations to make the features stand out."
               ghLink="https://github.com/Sairitik008/AI-production-landing-page"
             />
           </Col>
@@ -90,9 +91,32 @@ function Projects() {
             <ProjectCard
               imgPath={solar}
               isBlog={false}
-              title="Solar Panel Installation Platform (MERN)"
-              description="A MERN-stack web application for a solar installation company. Includes service listings, inquiry management, admin dashboard, and scalable backend APIs."
+              title="Solar Panel Platform"
+              description="A web portal I built for a solar installation company using the MERN stack. It handles customer inquiries, service tracking, and gives the team a clean dashboard to manage operations."
               ghLink="https://github.com/Sairitik008/solarpix-master"
+            />
+          </Col>
+
+          {/* 7. Saloon Booking */}
+          <Col md={4} sm={6} className="d-flex">
+            <ProjectCard
+              imgPath={saloon}
+              isBlog={false}
+              title="Glow Beauty Salon"
+              description="A modern frontend landing page I built for a beauty salon using React, Vite, and Tailwind CSS. It features a fully responsive layout, optimized SEO tags, and a modular component structure."
+              ghLink="https://github.com/Sairitik008/saloon-landing-page"
+              demoLink="https://saloon-eight-taupe.vercel.app/"
+            />
+          </Col>
+
+          {/* 8. Deloitte Analytics Dashboard */}
+          <Col md={4} sm={6} className="d-flex">
+            <ProjectCard
+              imgPath={deloitte}
+              isBlog={false}
+              title="Deloitte Sales Analytics"
+              description="A complex B2B sales forecasting data dashboard. I developed this to visualize extensive pipeline metrics and revenue projections, turning raw data into actionable insights for stakeholders."
+              ghLink="https://github.com/Sairitik008/deloitte-sales-forecasting-analytics"
             />
           </Col>
         </Row>
@@ -102,7 +126,7 @@ function Projects() {
           Industry & <strong className="purple">Independent</strong> Work
         </h1>
         <p className="text-center text-light mb-5">
-          Professional deliverables and custom freelance solutions.
+          Professional contract deliverables and freelance projects.
         </p>
 
         <Row className="g-4 justify-content-center">
@@ -112,7 +136,7 @@ function Projects() {
               imgPath={sauji}
               isBlog={false}
               title="Sauji (Food Delivery)"
-              description="[🔒 Confidential Industry Project] MERN-stack food delivery platform: order lifecycle management, real-time tracking endpoints, and restaurant admin dashboard."
+              description="[🔒 Confidential] A MERN-stack food delivery platform I contributed to. I worked on order lifecycle management, real-time tracking endpoints, and an admin dashboard for restaurant owners."
             />
           </Col>
 
@@ -121,8 +145,8 @@ function Projects() {
             <ProjectCard
               imgPath={solar}
               isBlog={false}
-              title="Solarpix (Node SaaS)"
-              description="[🔒 Confidential Industry Project] Node.js backend for solar energy SaaS; device telemetry ingestion, alert thresholds, and client reporting API."
+              title="Solarpix API Engine"
+              description="[🔒 Confidential] A Node.js backend for a solar energy service. I implemented device telemetry ingestion, automated alert thresholds, and the client reporting API."
             />
           </Col>
 
@@ -131,8 +155,8 @@ function Projects() {
             <ProjectCard
               imgPath={retailer}
               isBlog={false}
-              title="Retailer Platform (Marketplace)"
-              description="Full MERN-stack marketplace for electronics with specialized seller onboarding, SEO-optimized listing pages, and advanced product search."
+              title="Retailer Marketplace"
+              description="A freelance MERN-stack marketplace I built for electronics vendors. I focused on seller onboarding flows, search functionality, and optimizing the listing pages."
               ghLink="https://github.com/Sairitik008/E-commerce-Web-App"
             />
           </Col>

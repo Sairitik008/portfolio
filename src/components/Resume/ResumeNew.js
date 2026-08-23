@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
@@ -6,19 +6,13 @@ import Experience from "../About/Experience";
 import { AiOutlineDownload } from "react-icons/ai";
 
 // Local PDF from /public folder — used for in-page preview
-const LOCAL_PDF = "/Sairitik_Naidu_Resume.pdf";
+const LOCAL_PDF = "/SAIRITIK NAIDU.pdf";
 
 // Google Drive — used for download button
 const DRIVE_DOWNLOAD_URL =
   "https://drive.google.com/uc?export=download&id=1zXVTQ9gFQGITzTngXDSk9ibghEoV8Y_E";
 
 function ResumeNew() {
-  const [width, setWidth] = useState(1200);
-
-  useEffect(() => {
-    setWidth(window.innerWidth);
-  }, []);
-
   return (
     <div>
       <Container fluid className="resume-section">
@@ -43,7 +37,7 @@ function ResumeNew() {
         {/* ── Section 2: Formal Document Preview ── */}
         <Container>
           <Row className="justify-content-center" style={{ position: "relative", paddingTop: "30px" }}>
-             <Col md={12} className="text-center">
+            <Col md={12} className="text-center">
               <h1 className="project-heading">
                 Formal <strong className="purple">Resume</strong>
               </h1>

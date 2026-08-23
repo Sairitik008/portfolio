@@ -27,13 +27,13 @@ function Experience() {
             <h4 className="vertical-timeline-element-subtitle">
               Cluematrix Technologies Pvt. Ltd., Nagpur
             </h4>
-            <p style={{ fontSize: "0.9em", color: "#94a3b8" }}>
-              • Architected and deployed RESTful API integrations for an EdTech platform, significantly reducing manual data sync effort.<br />
-              • Built Node.js backend for Solarpix (Solar energy management) with modular service layers for real-time reporting.<br />
-              • Developed MERN-stack admin panel and React Native app for Turo Fitness platform.<br />
-              • Delivered food delivery app (Sauji) end-to-end using MERN stack.<br />
-              • Integrated GovTech workflows (Grampanchayat platform) using PHP and MySQL.
-            </p>
+            <ul style={{ listStyleType: "disc", paddingLeft: "20px", fontSize: "0.9em", color: "#94a3b8", textAlign: "left" }}>
+              <li style={{ marginBottom: "8px" }}>Worked on backend API integrations for an EdTech platform, cutting down a ton of manual data entry for the client.</li>
+              <li style={{ marginBottom: "8px" }}>Built the Node.js backend for Solarpix to track solar device health and generate real-time client reports.</li>
+              <li style={{ marginBottom: "8px" }}>Set up the admin dashboard and React Native app workflows for Turo Fitness.</li>
+              <li style={{ marginBottom: "8px" }}>Handled full-stack development for the Sauji food delivery app using React and Node.</li>
+              <li>Built local government tracking tools (Grampanchayat platform) using PHP and MySQL.</li>
+            </ul>
           </VerticalTimelineElement>
 
           {/* Freelance & Independent Developer */}
@@ -51,12 +51,12 @@ function Experience() {
             <h4 className="vertical-timeline-element-subtitle">
               Remote / On-site
             </h4>
-            <p style={{ fontSize: "0.9em", color: "#94a3b8" }}>
-              • Sales Forecasting Dashboards**: Real-time retail analytics with Python data pipelines and Power BI visualization.<br />
-              • Electronics Marketplace**: Full MERN-stack platform with seller onboarding and SEO-optimized listings.<br />
-              • Digital Visiting Card Platform**: NFC/QR-linked business cards with dynamic branding for multi-franchise owners.<br />
-              • Mehendi Booking App**: React Native app with calendar scheduling and Razorpay payment integration.
-            </p>
+            <ul style={{ listStyleType: "disc", paddingLeft: "20px", fontSize: "0.9em", color: "#94a3b8", textAlign: "left" }}>
+              <li style={{ marginBottom: "8px" }}><strong>Sales Dashboards:</strong> Designed internal Python pipelines and Power BI charts for retail clients to visualize their revenue.</li>
+              <li style={{ marginBottom: "8px" }}><strong>Electronics Marketplace:</strong> Built a custom MERN platform featuring specialized tools for sellers to manage their store listings.</li>
+              <li style={{ marginBottom: "8px" }}><strong>Digital Visiting Cards:</strong> Created an NFC-integrated portal for franchise owners to update their digital profiles on the fly.</li>
+              <li><strong>Mehendi Booking:</strong> Built a calendar scheduling app in React Native integrated directly with Razorpay checkouts.</li>
+            </ul>
           </VerticalTimelineElement>
 
           {/* Technical Trainer */}
@@ -74,11 +74,11 @@ function Experience() {
             <h4 className="vertical-timeline-element-subtitle">
               Disha Computer, Nagpur
             </h4>
-            <p style={{ fontSize: "0.9em", color: "#94a3b8" }}>
-              • Delivered curricula for Python, Java, MERN Stack, and Data Analytics to students and professionals.<br />
-              • Conducted coaching for DSA problem-solving and interview preparation.<br />
-              • Built reusable coding exercises deepening knowledge in OOP and algorithms.
-            </p>
+            <ul style={{ listStyleType: "disc", paddingLeft: "20px", fontSize: "0.9em", color: "#94a3b8", textAlign: "left" }}>
+              <li style={{ marginBottom: "8px" }}>Taught Python, Java, and MERN stack development to university students and career switchers.</li>
+              <li style={{ marginBottom: "8px" }}>Hosted 1-on-1 coaching sessions focused on Data Structures and Algorithms for technical interview prep.</li>
+              <li>Put together practical coding assignments to help students actually understand OOP concepts instead of just memorizing them.</li>
+            </ul>
           </VerticalTimelineElement>
 
           {/* Education - MCA */}

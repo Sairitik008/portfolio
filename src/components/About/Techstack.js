@@ -7,7 +7,6 @@ import ReactIcon from "../../Assets/TechIcons/React.svg";
 import Python from "../../Assets/TechIcons/Python.svg";
 import Java from "../../Assets/TechIcons/Java.svg";
 import Mongo from "../../Assets/TechIcons/Mongo.svg";
-import SQL from "../../Assets/TechIcons/SQL.svg";
 import Postgresql from "../../Assets/TechIcons/Postgresql.svg";
 import AWS from "../../Assets/TechIcons/AWS.svg";
 import Docker from "../../Assets/TechIcons/Docker.svg";
